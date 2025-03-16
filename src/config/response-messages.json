@@ -1,0 +1,11 @@
+{
+  "userNotFound": "User not found.",
+  "userAlreadyExists": "User with this email already exists.",
+  "loginSuccess": "Login successful!",
+  "serverError": "Something went wrong. Please try again.",
+  "emailAlreadyExists": "User with this email already exists.",
+  "usernameTaken": "Username is already taken.",
+  "RegisterSuccess": "User registered successfully.",
+  "invalidPassword": "Invalid password.",
+  "FailedToRegister": "Failed to register user."
+}
