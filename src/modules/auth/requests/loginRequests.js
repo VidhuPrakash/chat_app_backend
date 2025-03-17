@@ -1,6 +1,6 @@
 import Joi from "joi";
 import { CustomValidationError } from "../../../exceptions/customValidationError.js";
-import responseMessages from "../../../config/response-messages.json" assert { type: "json" };
+import responseMessages from "../../../config/response-messages.json" with { type: "json" };
 import userRepository from "../repositories/userRepository.js";
 import joiCustomMessages from "../../../utils/joiCustomMessages.js";
 import cleanErrorMessage from "../../../utils/cleanErrorMessage.js";

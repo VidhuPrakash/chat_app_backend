@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import LoginRequest from "../requests/loginRequests.js";
-import responseMessages from "../../../config/response-messages.json" assert { type: "json" };
+import responseMessages from "../../../config/response-messages.json" with { type: "json" };
 import userRepository from "../repositories/userRepository.js";
 import RegisterRequest from "../requests/registerRequests.js";
 
